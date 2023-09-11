@@ -1,0 +1,24 @@
+.navigacija ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+   
+}
+
+.navigacija li{
+    float: left;
+}
+
+.navigacija li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 19px;
+    text-decoration: none;
+  }
+  
+  .navigacija li a:hover {
+    background-color: #111111;
+  }

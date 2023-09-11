@@ -7,6 +7,95 @@
     <title>HTML CSS 6. CAS</title>
 </head>
 <body>
-    
+    <!-- liste -->
+    <ul> <!-- neuredjene liste koriste tag  ul -->
+        <li>Kafa</li>  <!-- svaka stavka liste koristi tag li -->
+        <li>Caj</li>
+        <li>Mleko</li>
+        <li>Cokolada</li>
+    </ul>
+    <ol> <!-- uredjena lista koristi tag ol -->
+        <li>Kafa</li>  <!-- svaka stavka liste koristi tag li -->
+        <li>Caj</li>
+        <li>Mleko</li>
+        <li>Cokolada</li>
+    </ol>
+    <dl> <!-- liste opisa tj liste pojmova, sa opisom svakog pojma koriste tag dl -->
+        <dt>Kafa</dt> <!-- dt definise termin -->
+        <dd>- crna vrela kafa</dd> <!-- dd opisuje svaki termin-->
+        <dt>Mleko</dt> 
+        <dd>- mleklo sa 2.8 procenata mlecne masti</dd>
+        <dd>- neobrano mleko</dd>
+        <dt>Caj</dt>
+        <dd>-hladni caj</dd>
+    </dl>
+        <!-- neuredjene liste -->
+        <ul style="list-style-type: circle;">
+            <li>Kafa</li>  
+            <li>Caj</li>
+            <li>Mleko</li>
+            <li>Cokolada</li>
+        </ul>
+        <ul style="list-style-type: square;">
+            <li>Kafa</li>  
+            <li>Caj</li>
+            <li>Mleko</li>
+            <li>Cokolada</li>
+        </ul>
+        <ul style="list-style-type: none;">
+            <li>Kafa</li>  
+            <li>Caj</li>
+            <li>Mleko</li>
+            <li>Cokolada</li>
+        </ul>
+        <ul> <!-- lista u listi -->
+            <li>Kafa</li>
+            <li>TCaj
+              <ul>
+                <li>Crni caj</li>
+                <li>Zeleni caj
+                    <ul>
+                        <li>Djumbir</li>
+                        <li>Avokado</li>
+                    </ul>
+                </li>
+              </ul>
+            </li>
+            <li>Mleko</li>
+          </ul>
+          <!-- lista kao navigacija -->
+<div class="navigacija">
+    <ul>
+        <li><a href="#kafa">Kafa</a></li>
+        <li><a href="#caj">Caj</a></li>
+        <li><a href="#mleko">Mleko</a></li>
+        <li><a href="#cokolada">Cokolada</a></li>
+      </ul>
+</div>
+    <!-- uredjene liste -->
+    <ol type="1">
+        <li>Kafa</li>
+        <li>Caj</li>
+        <li>Mleko</li>
+        <li>Cokolada</li>
+      </ol> 
+      <ol type="A">
+        <li>Kafa</li>
+        <li>Caj</li>
+        <li>Mleko</li>
+        <li>Cokolada</li>
+      </ol>
+      <ol type="i">
+        <li>Kafa</li>
+        <li>Caj</li>
+        <li>Mleko</li>
+        <li>Cokolada</li>
+      </ol>  
+      <ol start="10">
+        <li>Kafa</li>
+        <li>Caj</li>
+        <li>Mleko</li>
+        <li>Cokolada</li>
+      </ol>
 </body>
 </html>
